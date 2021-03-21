@@ -1,0 +1,114 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*  apply a natural box layout model to all elements  */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+// Styling for the body of the document
+
+body {}
+
+
+// Styling for the header of the document
+
+header {
+    background-color: $primaryColor;
+    color: $secondaryColor;
+
+
+}
+
+
+// Styling for the body of the document
+
+hr.fadeAway {
+    background: linear-gradient(to right, rgba(66, 78, 100, 1) 0%, rgba(66, 78, 100, 0.01) 100%);
+    height: 2px;
+    border: none;
+    width: 30%;
+}
+
+figure.banner {
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+
+
+
+
+}
+
+figure.banner img {
+    width: 100%;
+    height: 100px;
+}
+
+
+h1 {
+    font-size: 30px;
+    color: $fontColor;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    padding-top: 2%;
+
+}
+
+h2 {
+    font-size: 20px;
+    color: $fontColor;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: $secondaryColor;
+    padding-bottom: 1%;
+
+
+}
+
+h3 {
+    color: $fontColor;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+p {
+    color: $fontColor;
+   
+}
+
+
+
+
+
+
+// Styling for the Footer of the document
+
+footer img {
+    height: 10%;
+    width: 10%;
+    padding-top: 1%;
+}
+
+footer {
+    background-color: $secondaryColor;
+    padding-bottom: 1%;
+
+}
+
+.mainText {
+    margin-top: 5%;
+}
+
+.products {
+    padding-top: 300px;
+
+}
